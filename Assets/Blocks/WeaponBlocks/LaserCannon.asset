@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84f61028b97f0549bf3d141206aca09, type: 3}
+  m_Name: LaserCannon
+  m_EditorClassIdentifier: 
+  BlockName: Laser Cannon
+  BlockSprite: {fileID: 21300000, guid: 0580905bc1769b048b97d5386db401ff, type: 3}
+  UISprite: {fileID: 21300000, guid: 340ce92dae05b3c4c95e9fb33fb78072, type: 3}
+  Description: Consumes an enormous amount of energy to fire a powerful laser. Takes
+    a couple seconds to charge up and generates a lot of heat.
+  Core: 0
+  BlockID: {x: 3, y: 3}
+  Cost: 1200
+  HP: 150
+  Defence: 1
+  Weight: 2
+  HeatConductivity: 0.1
+  MeltingPoint: 100
+  CustomButton: 1
+  ReverseP2: 0
+  Button: 0
+  Rotatable: 0
+  CustomAngle: 1
+  Directional: 0
+  ExtraSprite: {fileID: 21300000, guid: c9ec4ee9d47aaaf49ab94063e30dde85, type: 3}
+  Angle: 0
+  ExtraVariableNames:
+  - DPS
+  - HeatDamage
+  - Energy
+  - Heat
+  - Range
+  ExtraVariables:
+  - 40
+  - 15
+  - 10
+  - 15
+  - 200
+  Script: Laser
