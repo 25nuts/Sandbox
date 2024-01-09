@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7345ebc5fef7bd947ab9dc36ca00a813
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spriteRenderer: {instanceID: 0}
+  - Attachment: {instanceID: 0}
+  - BlockCollider: {instanceID: 0}
+  - BlockSprite: {instanceID: 0}
+  - ExtraSprite: {instanceID: 0}
+  - WheelMaterial: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

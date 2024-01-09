@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7203643182204883791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7684224439343065165}
+  - component: {fileID: 1254541827603204268}
+  m_Layer: 0
+  m_Name: EffectObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7684224439343065165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7203643182204883791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1254541827603204268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7203643182204883791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96969b132b501b446a966cadef641d80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shockwave: {fileID: 5008272864003628805, guid: bfab8e76dc8e07345950c586af664c3c, type: 3}
+  BrokenBlock: {fileID: 4604029329379838764, guid: 76d1fdcda49c62141ac1064a80de584f, type: 3}
+  MinigunBullets: {fileID: 6174885973728821518, guid: 3ffd72eec7e7961408f9858489111630, type: 3}
+  Cannonball: {fileID: 2287197000815858947, guid: bf99b623c6f82264089fcdaa329dd2c5, type: 3}
+  SmallShockwave: {fileID: 2203817145497856636, guid: 81c1e46b70bfb1c4a8c9341071db8727, type: 3}
+  FlameJet: {fileID: 3912546939995108186, guid: 833979cffa1b0034d91259444d846212, type: 3}
+  Laser: {fileID: 2228499141416910705, guid: 6292f343abcd66d4bb587ebd90b90d5f, type: 3}
+  LaserCharge: {fileID: 5427541846373297644, guid: 034214e3f5155754db255aa1d63ddbaa, type: 3}
+  ThrusterFlame: {fileID: 4305533242033980985, guid: 9c8ad13ab7bf2324fa95021eead0a1af, type: 3}
+  SmallCannonball: {fileID: 2266444748589291248, guid: c9de30c178ae85143ab7f19fd64b9ca5, type: 3}
+  HealEffect: {fileID: 3765874959552943588, guid: d2ab2ec00e8e0af4984a5ef6cf06a43c, type: 3}
+  Missle: {fileID: 6000327726766028404, guid: 8bf8ff331a47f644ea89e689d8b2515a, type: 3}
+  Explosion: {fileID: 5008272864003628805, guid: bfab8e76dc8e07345950c586af664c3c, type: 3}
+  Grapplehook: {fileID: 6088724923148517582, guid: e1813c0302747cc479c681bd7a1100ef, type: 3}
+  GrappleLine: {fileID: 3351127691358981654, guid: 1f4130926686a334c85f9c811c2417af, type: 3}
+  Lightning: {fileID: 8381523836721552387, guid: 6a8721aacf080714baa508ecc1d0d489, type: 3}
+  SmallLightning: {fileID: 5039297520919459239, guid: d5cae9269426cd64c9e99abd05404bdd, type: 3}
+  ShockedParticleEffect: {fileID: 5306765442383233357, guid: b967f886b3e519f4db7a8bf8774911ce, type: 3}
+  PlasmaExplosion: {fileID: 4763290964227967252, guid: 0611efc897370274ab688ad8d2426092, type: 3}
+  LargePlasmaExplosion: {fileID: 2800991171319256676, guid: 753b53b00ac25124cb3cfef974f3119a, type: 3}
+  PlasmaBomb: {fileID: 3634004509957837280, guid: 50246277a4b8d014380ab53b82f79624, type: 3}
+  PlasmaShield: {fileID: 5798911189114587490, guid: 61cf2a427a9387f448ddd03cf8fce966, type: 3}
