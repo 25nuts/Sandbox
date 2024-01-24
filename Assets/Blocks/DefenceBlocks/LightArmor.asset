@@ -19,10 +19,10 @@ MonoBehaviour:
   Core: 0
   BlockID: {x: 2, y: 1}
   Cost: 200
-  HP: 200
+  HP: 150
   Defence: 3
   Weight: 1
-  HeatConductivity: 0.05
+  HeatConductivity: 0.1
   MeltingPoint: 200
   CustomButton: 0
   ReverseP2: 0

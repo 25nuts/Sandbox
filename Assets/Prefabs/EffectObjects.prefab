@@ -66,3 +66,4 @@ MonoBehaviour:
   LargePlasmaExplosion: {fileID: 2800991171319256676, guid: 753b53b00ac25124cb3cfef974f3119a, type: 3}
   PlasmaBomb: {fileID: 3634004509957837280, guid: 50246277a4b8d014380ab53b82f79624, type: 3}
   PlasmaShield: {fileID: 5798911189114587490, guid: 61cf2a427a9387f448ddd03cf8fce966, type: 3}
+  BlueFlameJet: {fileID: 1079575563229955352, guid: b4a968f8dc1a0a041a06ddcb6c67fa30, type: 3}

@@ -29,6 +29,7 @@ public class EffectObjects : MonoBehaviour
     public GameObject LargePlasmaExplosion;
     public GameObject PlasmaBomb;
     public GameObject PlasmaShield;
+    public GameObject BlueFlameJet;
 
     void CreateSingleton()
     {

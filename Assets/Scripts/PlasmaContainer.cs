@@ -8,11 +8,17 @@ public class PlasmaContainer : Block
 
     public float ExplosionRadius = 1.2f;
 
+    private bool Destroyed = false;
+
     public override void DeleteBlock()
     {
-        vehicle.PlasmaCapacity -= PlasmaCapacity;
-        if (vehicle.Plasma > vehicle.PlasmaCapacity)
-            vehicle.Plasma = vehicle.PlasmaCapacity;
+        if (!Destroyed)
+        {
+            vehicle.PlasmaCapacity -= PlasmaCapacity;
+            if (vehicle.Plasma > vehicle.PlasmaCapacity)
+                vehicle.Plasma = vehicle.PlasmaCapacity;
+             Destroyed = true;
+        }
 
         base.DeleteBlock();
     }

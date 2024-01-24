@@ -80,10 +80,19 @@ public class EditorBlock : MonoBehaviour
 
     private void OnMouseOver()
     {
+        spriteRenderer.color = Color.gray;
+        attachment.color = Color.gray;
+
         if (Input.GetMouseButtonDown(1) && spriteRenderer.sprite != Empty)
         {
             DeleteBlock();
         }
+    }
+
+    public void OnMouseExit()
+    {
+        spriteRenderer.color = Color.white;
+        attachment.color = Color.white;
     }
 
     void Update()

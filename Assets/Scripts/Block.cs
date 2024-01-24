@@ -111,17 +111,17 @@ public class Block : MonoBehaviour
             brokenBlock.GetComponent<BrokenBlock>().HeatConductivity = HeatConductivity;
             brokenBlock.GetComponent<BrokenBlock>().MeltingPoint = MeltingPoint;
 
+            if (delete)
+            {
+                if (vehicle.blocks.Contains(this))
+                    vehicle.blocks.Remove(this);
+                if (vehicle.blockGrid.Contains(this))
+                    vehicle.blockGrid[vehicle.blockGrid.IndexOf(this)] = null;
+
+                DeleteBlock();
+            }
+
             Felloff = true;
-        }
-
-        if (delete)
-        {
-            if (vehicle.blocks.Contains(this))
-                vehicle.blocks.Remove(this);
-            if (vehicle.blockGrid.Contains(this))
-                vehicle.blockGrid[vehicle.blockGrid.IndexOf(this)] = null;
-
-            DeleteBlock();
         }
     }
 
